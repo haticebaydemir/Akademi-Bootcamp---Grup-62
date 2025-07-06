@@ -104,6 +104,9 @@ Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.
 ### Daily Scrum
 Zaman kısıtları nedeniyle günlük gelişmeler WhatsApp grubunda yazılı olarak paylaşılmıştır.
 
+### Sprint Board
+![](Sprint1_images/d8aaf6762eeb44de9955324565a917213jpg.jpg)
+
 ### Ürün Durumu
 - Proje vizyonu ve kullanıcı değeri netleştirildi  
 - Uyku ile ilişkili veri alanları yapılandırıldı  
