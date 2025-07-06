@@ -1,170 +1,142 @@
-Takım İsmi
-Takım AI-62
+# SleepWise – Yapay Zeka Destekli Uyku Günlüğü ve Kişisel Tavsiye Sistemi
 
-Takım Elemanları
-Product Owner: Yavuz Selim Paksoy
+## Takım Bilgileri
 
-Scrum Master: Umut Can
+**Takım İsmi:** AI-62
 
-Developer #1: Buse Bahadır
+### Takım Üyeleri
+- Product Owner: Yavuz Selim Paksoy  
+- Scrum Master: Umut Can  
+- Developer #1: Buse Bahadır  
+- Developer #2: Hatice Bekdemir  
 
-Developer #2: Hatice Bekdemir
+## Proje Hakkında
 
-Proje Adı
-Yapay Zeka Destekli Uyku Günlüğü ve Kişisel Tavsiye Sistemi
+SleepWise, sadece uyku süresini kaydeden bir uygulama olmanın ötesine geçerek, kullanıcıların uyku alışkanlıklarını analiz etmeye ve iyileştirmeye odaklanan kişiselleştirilmiş bir sağlık teknolojisidir.
 
-Proje Hakkında
-SleepWise — Yapay Zeka Destekli Kişisel Uyku Koçu, sadece uyku süresini kaydeden bir uygulama olmanın ötesine geçerek, kullanıcıların uyku alışkanlıklarını analiz etmeye ve iyileştirmeye odaklanan kişiselleştirilmiş bir sağlık teknolojisidir.
+Uygulama, kullanıcıdan günlük olarak aşağıdaki yapılandırılmış verileri toplar:
+- Uyku süresi
+- Stres seviyesi
+- Fiziksel aktivite düzeyi
+- Ekran süresi
+- Kafein tüketimi
+- Duygudurum
+- Nabız, tansiyon, adım sayısı
 
-Uygulama, kullanıcıdan günlük olarak yapılandırılmış veri toplar: uyku süresi, stres seviyesi, fiziksel aktivite, ekran süresi, kafein tüketimi, duygudurum gibi parametreler Firebase üzerinde saklanır ve yapay zeka desteğiyle analiz edilir.
+Bu veriler Firebase üzerinde saklanır ve yapay zeka desteğiyle analiz edilir. Analiz sonuçları üzerinden GenAI (Google Gemini) tarafından kişiselleştirilmiş öneriler sunulur.
 
-Bu veriler üzerinden GenAI (Gemini) tarafından kullanıcıya özel öneriler oluşturulur. Örneğin:
-“Stres düzeyinizin arttığı günlerde uyku süreniz %20 düşmektedir. Gece rutinlerinizi gözden geçirmeyi deneyebilirsiniz.”
+**Örnek öneri:**  
+"Stres düzeyinizin arttığı günlerde uyku süreniz %20 düşmektedir. Gece rutinlerinizi gözden geçirmeyi deneyebilirsiniz."
 
-Veriler, kullanıcıya grafiklerle sunulur ve öneriler gerçek zamanlı olarak güncellenir.
+Veriler grafiklerle sunulur ve öneriler gerçek zamanlı olarak güncellenir.
 
-Projenin Nihai Hedefi
-SleepWise’in hedefi, uyku problemleri yaşayan bireyler için veri destekli, kişiselleştirilmiş bir rehberlik sistemi sunmaktır. Uygulama; uyku alışkanlıklarını analiz eden, yapay zeka ile çalışan, kullanıcıya sürekli geri bildirim veren, dijital sağlık asistanı işlevi görür.
+## Projenin Nihai Hedefi
 
-Uygulama Arayüzü
+SleepWise’in amacı, uyku problemleri yaşayan bireyler için veri destekli, kişiselleştirilmiş bir rehberlik sistemi oluşturmaktır.  
+Uygulama; uyku alışkanlıklarını analiz eden, yapay zeka ile çalışan, kullanıcıya sürekli geri bildirim veren bir dijital sağlık asistanı işlevi görür.
+
+## Uygulama Arayüzü
+
 Uygulamanın ilk sürümünde geliştirilen ekranlar:
 
-Kullanıcı Girişi ve Kayıt Olma Sayfası
+- Kullanıcı Girişi ve Kayıt Olma Sayfası  
+- Ana Menü (Profil ve Uyku Takibi seçenekleri)  
+- Uyku Takibi Simülasyonu:  
+  Kullanıcının yaş, cinsiyet, meslek, uyku süresi, stres düzeyi, nabız, tansiyon vb. verileri girdiği ekran  
+- Sonuç Ekranı:  
+  - Girilen verilerin özetlendiği panel  
+  - Uyku bozukluğu tespiti (örneğin: insomnia)  
+  - GenAI tarafından oluşturulan kişisel öneriler  
 
-Ana Menü (Profil ve Uyku Takibi seçenekleri)
+## Özellikler
 
-Uyku Takibi Simülasyonu: Kullanıcının yaş, cinsiyet, meslek, uyku süresi, stres düzeyi, nabız, tansiyon vb. verileri girdiği arayüz
+### Kişiselleştirilmiş Veri Toplama
+- Günlük kısa ve yapılandırılmış sorular
+- Uyku süresi ve kalitesi
+- Stres seviyesi
+- Fiziksel aktivite düzeyi
+- Ekran süresi
+- Duygudurum
+- Kafein tüketimi
+- Nabız, tansiyon, adım sayısı
 
-Sonuç Ekranı:
+### Yapay Zeka Destekli Analiz ve Öneri
+- Uyku alışkanlıklarının analizi
+- Geçmiş verilere göre kişisel öneriler
+- Olası riskli durumlarda uyarılar
+- Yaşam tarzı ile uyku arasındaki ilişkilerin tespiti
 
-Girilen verilerin özetlendiği panel
+### Kullanıcı Dostu Arayüz
+- Hızlı ve yapılandırılmış veri girişi
+- Gerçek zamanlı analiz
+- Görsel geri bildirim ve sade sonuç ekranları
 
-Uyku bozukluğu tespiti (örneğin: Insomnia)
+## Kullanılan Teknolojiler
 
-GenAI tarafından oluşturulmuş kişisel öneri alanı
+- Frontend: React.js  
+- Backend: Firebase (Authentication & Realtime Database)  
+- LLM: Google Gemini (LangChain ile)  
+- Veri Görselleştirme: Chart.js  
+- Dataset: Kaggle – Sleep Health and Lifestyle Dataset  
 
-Özellikler
-Kişiselleştirilmiş Veri Toplama
-Kullanıcıdan günlük olarak kısa ve yapılandırılmış sorular aracılığıyla veri toplanır.
+## Hedef Kitle
 
-Uyku süresi ve kalitesi
+- Uyku problemi yaşayan çalışanlar  
+- Üniversite öğrencileri  
+- Sağlıklı yaşam odaklı bireyler  
+- Dijital sağlık uygulamalarını aktif kullanan kullanıcılar  
+- İkincil hedef: Uyku terapistleri, psikologlar, danışmanlar  
 
-Stres seviyesi
+## Sprint 1
 
-Fiziksel aktivite düzeyi
+### Sprint Notları
+Bu ilk sprint, SleepWise projesinin temelini oluşturmak üzere planlanmıştır.  
+Projenin vizyonu netleştirilmiş, MVP kapsamı belirlenmiş ve teknik ön hazırlıklar yapılmıştır.  
+Kullanıcıdan toplanacak veriler yapılandırılmış, öneri sistemi için yapay zeka planlaması yapılmıştır.
 
-Ekran süresi
-
-Duygudurum
-
-Kafein tüketimi
-
-Nabız, tansiyon, adım sayısı
-
-Yapay Zeka Destekli Analiz ve Öneri
-Uyku alışkanlıkları analiz edilir
-
-Geçmiş verilere göre kişisel öneriler sunulur
-
-Olası riskli durumlarda uyarılar verilir
-
-Yaşam tarzı ile uyku arasındaki korelasyonlar tespit edilir
-
-Kullanıcı Dostu Arayüz
-Hızlı ve yapılandırılmış veri girişi
-
-Gerçek zamanlı analiz
-
-Görsel geri bildirim ve sade sonuç ekranları
-
-Kullanılan Teknolojiler
-Frontend: React.js
-
-Backend: Firebase (Authentication & Realtime Database)
-
-LLM: Google Gemini (LangChain ile)
-
-Veri Görselleştirme: Chart.js
-
-Dataset: Kaggle – Sleep Health and Lifestyle Dataset
-
-Hedef Kitle
-Uyku problemi yaşayan çalışanlar
-
-Üniversite öğrencileri
-
-Sağlıklı yaşam odaklı bireyler
-
-Dijital sağlık uygulamalarını aktif kullanan kişiler
-
-İkincil hedef: Uyku terapistleri, psikologlar, danışmanlar
-
-Sprint 1
-Sprint Notları
-Bu ilk sprint, SleepWise projesinin temelini oluşturmak üzere planlanmıştır. Projenin vizyonu netleştirilmiş, MVP kapsamı belirlenmiş ve teknik ön hazırlıklar yapılmıştır. Kullanıcıdan toplanacak veriler yapılandırılmış, öneri sistemi için yapay zeka planlaması yapılmıştır.
-
-Sprint İçinde Tamamlanması Tahmin Edilen Puan
+### Sprint İçinde Tamamlanması Planlanan Puan
 100 puan
 
-Puan Tamamlama Mantığı
-Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır. İlk sprintte planlama ve altyapı kurulumları önceliklendirildiği için hedef 100 puan belirlenmiştir.
+### Puanlama Mantığı
+Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.  
+İlk sprintte planlama ve altyapı kurulumları önceliklendirildiği için hedef 100 puan belirlenmiştir.
 
-Daily Scrum
-Zaman kısıtları nedeniyle günlük gelişmeler Whatsapp grubunda yazılı olarak paylaşılmıştır.
+### Daily Scrum
+Zaman kısıtları nedeniyle günlük gelişmeler WhatsApp grubunda yazılı olarak paylaşılmıştır.
 
-Ürün Durumu
-Proje vizyonu ve kullanıcı değeri netleştirildi
+### Ürün Durumu
+- Proje vizyonu ve kullanıcı değeri netleştirildi  
+- Uyku ile ilişkili veri alanları yapılandırıldı  
+- Genel uygulama akışı planlandı  
+- Yapay zeka algoritması ve LLM altyapısı araştırıldı  
+- Uygulama arayüzünün ilk versiyonları tasarlandı ve geliştirildi  
+- Uyku Takibi Simülasyon Ekranı tamamlandı  
+- Sonuç ekranında uyku bozukluğu tespiti ve GenAI önerisi sunulabiliyor  
 
-Uyku ile ilişkili veri alanları yapılandırıldı
+### Sprint Review
+- Ürün fikri kullanıcı gereksinimlerine göre tanımlandı  
+- Veri yapısı oluşturuldu  
+- Uyku bozukluğu tespiti ekranı geliştirildi  
+- GenAI ile öneri üretimi başlatıldı  
+- Kullanıcı arayüzü temel düzeyde çalışır durumda  
 
-Genel uygulama akışı planlandı
+### Sprint Retrospective
 
-Yapay zeka algoritması ve LLM altyapısı araştırıldı
+**İyi Gidenler:**
+- Vizyon netliği ve ekip içi motivasyon
+- Yapılandırılmış veri yapısı
+- Başarılı ekran geliştirme ve test çıktısı
+- LLM ile ilk entegrasyon denemeleri
 
-Uygulama arayüzünün ilk versiyonları tasarlandı ve çalıştırıldı
+**Geliştirilebilecek Noktalar:**
+- Ekip içi görev dağılımı daha netleştirilmeli  
+- UI geliştirme süreçleri daha erken başlamalı  
+- Daily Scrum süreçleri daha aktif yürütülmeli  
 
-Uyku Takibi Simülasyon Ekranı geliştirildi
-
-Sonuç ekranında uyku bozukluğu tespiti ve GenAI önerisi başarıyla sunuluyor
-
-Sprint Review
-Ürün fikri, kullanıcı gereksinimlerine göre net tanımlandı
-
-Veri yapısı oluşturuldu, yapay zekaya uygun formatta hazırlandı
-
-Uyku bozukluğu tespiti ekranı geliştirildi
-
-GenAI ile öneri üretimi başarıyla başlatıldı
-
-Kullanıcı arayüzü temel olarak çalışır durumda
-
-Sprint Retrospective
-İyi Gidenler
-
-Vizyon netliği ve ekip içi motivasyon
-
-Yapılandırılmış veri yapısı
-
-Başarılı ekran geliştirme ve test çıktısı
-
-LLM ile ilk entegrasyon denemeleri
-
-Geliştirilebilecek Noktalar
-
-Ekip içi görev dağılımı daha netleştirilmeli
-
-UI geliştirme süreçleri daha erken başlamalı
-
-Daily Scrum süreçleri daha aktif takip edilmeli
-
-İyileştirme Hedefleri (Sprint 2 için)
-
-Wireframe ve UI prototip tamamlanacak
-
-GenAI öneri motoru genişletilecek
-
-Backend API bağlantısı tamamlanacak
-
-Kullanıcı senaryoları tanımlanacak ve test edilecek
+### İyileştirme Hedefleri (Sprint 2 için)
+- Wireframe ve UI prototip tamamlanacak  
+- GenAI öneri motoru genişletilecek  
+- Backend API bağlantısı tamamlanacak  
+- Kullanıcı senaryoları tanımlanacak ve test edilecek  
 
  
