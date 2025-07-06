@@ -6,7 +6,7 @@
 
 ### Takım Üyeleri
 - Product Owner: Yavuz Selim Paksoy  
-- Scrum Master: Umut Can  
+- Scrum Master: Umut Can Konukçu
 - Developer #1: Buse Bahadır  
 - Developer #2: Hatice Bekdemir  
 
@@ -119,6 +119,13 @@ Zaman kısıtları nedeniyle günlük gelişmeler WhatsApp grubunda yazılı ola
 - Uyku bozukluğu tespiti ekranı geliştirildi  
 - GenAI ile öneri üretimi başlatıldı  
 - Kullanıcı arayüzü temel düzeyde çalışır durumda  
+
+### Ürünün Ekran Görüntüleri
+![](Sprint1_images/48706204ae094f39adc34125698939d8.jpg)
+![](Sprint1_images/c2284ef1cfb74cfdaf6c56eee7dd4a84.jpg)
+![](Sprint1_images/035ae2d7790d4372a57fa3063a7ea824.jpg)
+![](Sprint1_images/d8aaf6762eeb44de9955324565a917b4.jpg)
+
 
 ### Sprint Retrospective
 
