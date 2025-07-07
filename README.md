@@ -103,6 +103,8 @@ Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.
 
 ### Daily Scrum
 Zaman kısıtları nedeniyle günlük gelişmeler WhatsApp grubunda yazılı olarak paylaşılmıştır.
+![](Sprint1_images/meet1.png)
+![](Sprint1_images/meet.png)
 
 ### Sprint Board
 ![](Sprint1_images/d8aaf6762eeb44de9955324565a917213jpg.jpg)
