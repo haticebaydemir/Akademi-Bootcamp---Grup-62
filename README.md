@@ -1,203 +1,216 @@
-# SleepWise – Yapay Zeka Destekli Uyku Günlüğü ve Kişisel Tavsiye Sistemi
+# Üniversite Soru Bankası – Akademik Sınav Yönetim ve Analiz Sistemi
 
 ## Takım Bilgileri
 
 **Takım İsmi:** AI-62
 
 ### Takım Üyeleri
+
 - Product Owner: Yavuz Selim Paksoy  
-- Scrum Master: Umut Can Konukçu
+- Scrum Master: Umut Can Konukçu  
 - Developer #1: Buse Bahadır  
 - Developer #2: Hatice Bekdemir  
 
+---
+
 ## Proje Hakkında
 
-Üniversite Soru Bankası, yükseköğretim kurumlarının sınav hazırlık ve değerlendirme süreçlerini dijital ortama taşıyan bütünleşik bir platformdur. Sistem; sınav planlama, editör görevlendirme, soru havuzu yönetimi ve sınav analiz modüllerini barındırır. Kullanıcılar arayüz üzerinden sınav oluşturabilir, görevli editörleri belirleyebilir, sorular hazırlayabilir ve sınav sonuçlarını detaylı biçimde analiz edebilirler.
+**Üniversite Soru Bankası**, yükseköğretim kurumlarının sınav hazırlık ve değerlendirme süreçlerini dijital ortama taşıyan bütünleşik bir platformdur. Sistem; sınav planlama, editör görevlendirme, soru havuzu yönetimi ve sınav analiz modüllerini içerir.
 
-Uygulama Özellikleri
-1. Sınav Yönetimi
-Sınav adı, kodu ve tarihiyle birlikte sınav oluşturma adımları (Genel Bilgiler, Editör Seçimi, Önizleme)
-Görevli editör atama ve editörlerin yetki düzeyini belirleme
-Görev atama ekranı popup olarak açılır, validasyon desteklidir
+Kullanıcılar:
 
-2. Soru Editörü
-Soru metni ve şıkların yapılandırıldığı detaylı editör
-Zorluk derecesi, kaynak bilgisi ve doğru cevap işaretleme özellikleri
-Çoklu kazanım eşleştirme: bölüm kazanımları ve ders kazanımları
-Dönem/hafta bazlı sınav tarihi planlaması
-Aktif/pasif durumu için hızlı toggle kontrolü
+- Sınav oluşturabilir  
+- Görevli editörleri belirleyebilir  
+- Sorular hazırlayabilir  
+- Sınav sonuçlarını analiz edebilir  
 
-3. Sınav Analizi Modülü
-Her bir soru için:
-Kitapçık türü, soru numarası, doğru cevap
-Şık dağılımları ve boş bırakılan soru sayısı
-Toplam doğru sayısı ve başarı yüzdesi
-Başarı oranı görsel olarak renklendirilir:
+---
 
-%75 ve üzeri: Yeşil
-%50–74: Sarı
-%0–49: Kırmızı
+## Uygulama Özellikleri
 
-“Excel Olarak İndir” özelliği
+### 1. Sınav Yönetimi
 
-Tablo üzerinde filtreleme ve sıralama yapılabilir
+- Sınav adı, kodu, tarihi ile adım adım sınav oluşturma
+- Editör atama (popup yapıda)
+- Validasyon destekli görev formu
 
-Üç adımlı üst navigasyon: Sınav Seçimi > Rapor Yükle > Sonuç
+### 2. Soru Editörü
 
-**Örnek öneri:**  
-"Stres düzeyinizin arttığı günlerde uyku süreniz %20 düşmektedir. Gece rutinlerinizi gözden geçirmeyi deneyebilirsiniz."
+- Soru metni, şıklar ve doğru cevap işaretleme
+- Zorluk derecesi, kaynak bilgisi, kazanım eşleştirme
+- Dönem/hafta bazlı zamanlama
+- Aktif/Pasif durumu (toggle switch)
 
-Veriler grafiklerle sunulur ve öneriler gerçek zamanlı olarak güncellenir.
+### 3. Sınav Analizi Modülü
+
+- Kitapçık türü, soru numarası, cevap analizleri
+- Şık dağılımı ve başarı yüzdesi
+- Renkli başarı kutuları:
+  - %75 ve üzeri  
+  - %50–74  
+  - %0–49  
+- Filtreleme, sıralama, Excel çıktısı
+
+
+
+
 
 ## Projenin Nihai Hedefi
 
-Üniversite Soru Bankası projesi, yükseköğretim kurumlarında sınav hazırlama, soru editörlüğü ve sonuç analiz süreçlerini dijitalleştirerek akademik kaliteyi artırmayı hedefleyen bir yönetim sistemidir.
-Amaç, sadece soruları toplamak değil; kazanım odaklı, istatistiksel olarak güçlü ve izlenebilir sınav süreçleri tasarlayarak, öğretim elemanlarına veri temelli geri bildirim sunan bir platform oluşturmaktır.
+Bu proje, sınav süreçlerini:
 
-Sistem, editörlerin daha bilinçli soru üretmesini, koordinatörlerin daha etkili görev dağılımı yapmasını ve yöneticilerin sınav kalitesini objektif olarak değerlendirmesini mümkün kılar.
-Uzun vadede, her bölümün öğrenim çıktıları ile sınav performansları arasındaki ilişkiyi analiz ederek akademik gelişim için stratejik içgörüler sunmayı amaçlar.
+- **Sayısal**,  
+- **Objektif**,  
+- **Kazanım odaklı** bir yapıya oturtarak;
+
+akademik kaliteyi artırmak ve eğitim çıktılarını izlenebilir hale getirmek için tasarlanmıştır.
+
+Uzun vadede, sınav performansları ile bölüm öğrenim çıktıları arasında **istatistiksel ilişki kurulması** hedeflenmektedir.
+
+---
 
 ## Kullanılan Teknolojiler
-Frontend: React.js + Tailwind CSS
-Backend: Firebase (Realtime Database, Authentication)
-Görselleştirme: Chart.js
-Dosya Çıkışı: ExcelJS
-UI: Kurumsal sade tasarım, mobil uyumlu yapı
 
+- **Frontend:** React.js + Tailwind CSS  
+- **Backend:** Firebase (Realtime Database, Auth)  
+- **Görselleştirme:** Chart.js  
+- **Excel Çıktısı:** ExcelJS  
+- **Tasarım:** Mobil uyumlu, sade, kurumsal arayüz  
+
+---
 
 ## Hedef Kitle
--Üniversite öğretim elemanları
--Fakülte sınav sorumluları
--Eğitim teknolojileri birimleri
--Soru havuzu yöneticileri
--Yükseköğretimde dijital sınav altyapısına geçmek isteyen kurumlar
+
+- Üniversite öğretim elemanları  
+- Fakülte sınav sorumluları  
+- Eğitim teknolojileri birimleri  
+- Soru havuzu yöneticileri  
+- Dijital sınav altyapısı arayan kurumlar  
+
+---
 
 ## Sprint 1
 
 ### Sprint Notları
-Bu ilk sprint, Üniversite Soru Bankası projesinin temelini oluşturmak amacıyla planlanmıştır.
-Projenin vizyonu netleştirilmiş, hedef kullanıcı kitlesi belirlenmiş ve teknik mimari ön hazırlıkları yapılmıştır.
-Bu sprintte kullanıcıların sisteme güvenli ve kolay bir şekilde giriş yapabilmesini sağlayacak Login Sayfası odak alınmıştır.
-UI/UX tasarımı tamamlanan bu ekran, Firebase tabanlı kimlik doğrulama ile entegre edilmiştir.
 
-### Sprint İçinde Tamamlanması Planlanan Puan
-100 puan
+- Projenin vizyonu ve mimarisi oluşturuldu  
+- Giriş sistemi (Login Sayfası) geliştirildi  
+- Firebase Authentication ile tam entegre  
+- Google, Facebook ve e-posta ile giriş desteklendi  
 
-### Puanlama Mantığı
-Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.  
-İlk sprintte planlama ve altyapı kurulumları önceliklendirildiği için hedef 100 puan belirlenmiştir.
-Login modülü, proje boyunca erişim denetiminin temelini oluşturacağı için öncelikli olarak tamamlanmıştır.
+### Planlanan Puan: `100 puan`
 
 ### Daily Scrum
-Zaman kısıtları nedeniyle günlük gelişmeler WhatsApp grubunda yazılı olarak paylaşılmıştır.
-![](Sprint1_images/meet1.png)
+
+> Günlük gelişmeler WhatsApp grubunda yazılı olarak paylaşıldı.
 ![](Sprint1_images/meet.png)
+![](Sprint1_images/meet1.png)
+
 
 ### Ürün Durumu
--Proje vizyonu ve hedef kitle netleştirildi
--Firebase Authentication ile oturum yönetimi planlandı
--Google, Facebook ve e-posta tabanlı giriş desteği sağlandı
--Giriş ekranı UI/UX tasarımı tamamlandı
--Giriş sayfası mobil uyumlu hale getirildi
--Hatalı girişler için kullanıcı dostu validasyon eklendi
--“Şifremi unuttum” ve “Hesap oluştur” bağlantıları aktif hale getirildi
+
+- Giriş ekranı UI/UX tamamlandı  
+- Validasyon ve hata uyarıları eklendi  
+- Mobil uyumlu yapıya geçildi  
+- Şifremi unuttum & hesap oluştur bağlantıları aktif  
 
 ### Sprint Review
--Kullanıcı arayüzü temiz ve erişilebilir şekilde geliştirildi
--Firebase bağlantısı başarıyla kuruldu
--Giriş senaryoları test edildi: geçersiz e-posta, hatalı şifre, boş alan uyarıları
--Google ve Facebook ile sosyal giriş entegrasyonu tamamlandı
--Masaüstü ve mobil cihazlarda testler başarıyla gerçekleştirildi
 
-### Ürünün Ekran Görüntüleri
+- Giriş akışı başarıyla çalışıyor  
+- Firebase entegrasyonu stabil  
+- Sosyal girişler (Google/Facebook) test edildi  
+- Masaüstü ve mobil cihazlarda başarıyla test edildi  
 
+### Ekran Görüntüsü
 
-### Sprint Retrospective
+![](Sprint1_images/login.jpg)
 
-**İyi Gidenler:**
--Net görev tanımı sayesinde hızlı ilerleme
--Firebase dokümantasyonuna uygun geliştirme
--UI/UX tasarımı sadeliğiyle öne çıktı
--Sosyal medya girişleri başarıyla entegre edildi
+### Retrospective
 
-**Geliştirilebilecek Noktalar:**
--UI testleri sprintin daha erken safhasında başlamalı
--Prototip ekranlar Figma üzerinden önceden paylaşılmalı
--GitHub commit mesajlarında daha açıklayıcı etiketleme yapılmalı
+**İyi Gidenler**
+- Net görev tanımı ile hızlı ilerleme  
+- Firebase entegrasyonu problemsiz  
+- UI tasarımı sade ve etkili  
 
+**Geliştirilebilecek Noktalar**
+- UI testleri daha erken başlamalı  
+- Figma prototipleri önceden paylaşılmalı  
+- Git commit mesajları daha açıklayıcı olmalı  
 
+### Sprint 2'ye Hedefler
 
-### İyileştirme Hedefleri (Sprint 2 için)
--Sınav Oluşturma modülünün temelleri atılacak
--Editör Görev Atama ekranı popup şeklinde geliştirilecek
--Soru Editörü ekran tasarımı oluşturulacak
--UI prototipler finalize edilerek paydaşlarla paylaşılacak
--Rol bazlı yetkilendirme için kullanıcı rolleri (admin, editör) tanımlanacak
+- Sınav Oluşturma süreci başlayacak  
+- Editör Görev Atama popup geliştirilecek  
+- Soru Editörü arayüzü çizilecek  
+- Rol tabanlı kullanıcı erişimleri tanımlanacak  
 
+---
 
 ## Sprint 2
-###Sprint Notları
-Bu sprintte, sistemin çekirdek işlevleri arasında yer alan Editör Görev Atama, Sınav Oluşturma Süreci ve Soru Editörü modülleri geliştirilmiştir. Kullanıcı rollerine göre erişim yapısı şekillendirilmiş ve arayüz bileşenleri sade, kurumsal çizgide tasarlanmıştır.
-Ayrıca UI prototipler finalize edilerek geri bildirimler doğrultusunda revize edilmiştir.
 
-### Sprint İçinde Tamamlanması Planlanan Puan
-100 puan
+### Sprint Notları
 
-### Puanlama Mantığı
-Backlog toplamı 300+ puana genişletilmiştir. Sprint 2’de 100 puanlık görev, kullanıcı tarafındaki aktif modüllerin prototip ve işlevsel entegrasyonlarını kapsayacak şekilde seçilmiştir.
-Odak: Editör yönetimi, sınav süreci başlatma ve soru üretimi ekranları.
+- Editör Görev Atama, Soru Editörü ve Sınav Oluşturma akışı geliştirildi  
+- UI sade ve kurumsal çizgide tutuldu  
+- Kullanıcı rollerine göre erişim sistemi planlandı  
+
+### Planlanan Puan: `100 puan`
 
 ### Daily Scrum
-Zaman kısıtları nedeniyle günlük gelişmeler WhatsApp grubunda yazılı olarak paylaşılmıştır.
 
+> İletişim yine WhatsApp grubu üzerinden sürdürüldü. UI testleri yapılmaya başlandı.
 
 ### Ürün Durumu
-##Editör Görev Atama Sayfası
--Bölüm, Ders Kodu, Ders Adı, En Yüksek Hafta, Zorunlu Soru Sayısı alanları
--Form validasyonu: boş alan, sayı sınırı ve açıklama desteği
--“Görev Tanımla” ve “Kapat” butonları
--Sayfa, popup/modal olarak açılır yapıdadır
--UI sade ve beyaz arka planla tasarlandı
 
-##Soru Editörü
--Soru metni girişi
--Zorluk derecesi (Kolay / Orta / Zor)
--Şık ekleme ve açıklama yazma desteği
--Doğru cevap işaretleme
--Kazanım eşleştirme (Bölüm ve Ders kazanımları – çoklu seçim)
--Dönem ve hafta seçimi
--Aktif / pasif durumu (toggle)
--“Değişiklikleri Kaydet” ve “Geri Dön” butonları
+#### 🎯 Editör Görev Atama
+
+- Bölüm, ders kodu, ders adı, hafta ve zorunlu soru alanları  
+- Form validasyonu ve açıklama desteği  
+- Modal (popup) yapı  
+- “Görev Tanımla” ve “Kapat” butonları
+
+![](Sprint1_images/editor_gorev.jpg)
+
+#### ✍️ Soru Editörü
+
+- Soru metni, zorluk derecesi, şıklar  
+- Doğru cevap işaretleme  
+- Bölüm & ders kazanımı eşleştirme (çoklu seçim)  
+- Dönem/hafta ayarı, aktif/pasif toggle  
+- “Kaydet” ve “Geri Dön” butonları
+
+![](Sprint1_images/soru_editoru.jpg)
+
+#### 🧭 Sınav Oluşturma Süreci
+
+- 3 adımlı yapı: Sınav Bilgisi > Editör Seçimi > Önizleme  
+- Üst akış çizgisiyle yönlendirici deneyim
+
+![](Sprint1_images/sinav_bilgileri.jpg)
 
 ### Sprint Review
--Görev atama ekranı, validasyonlarla birlikte başarıyla geliştirildi
--Soru editörü kullanıcı odaklı ve esnek hale getirildi
--Kazanım eşleştirme sayesinde pedagojik kontrol sağlandı
--Sınav oluşturma süreci yönlendirici akışla netleştirildi
--Modal tasarımlar kullanıcı deneyimini sadeleştirdi
 
-### Ürünün Ekran Görüntüleri
+- Görev atama modülü stabil şekilde tamamlandı  
+- Soru editörü kullanıcı dostu şekilde genişletildi  
+- UI prototipler finalize edilerek yorumlara göre güncellendi  
 
+### Retrospective
 
-### Sprint Retrospective
+**İyi Gidenler**
+- UI’da sade ve temiz çizgi  
+- Validasyonlar sorunsuz  
+- Mobil önizleme başarılı
 
-**İyi Gidenler:**
--UI tasarımlarında sade, kurumsal çizgi yakalandı
--Validasyon kontrolleri başarılı şekilde uygulandı
--Geliştirme süreci net görev ayrımıyla ilerledi
--Mobil önizlemelerde kararlı yapı sağlandı
+**Geliştirilebilecek Noktalar**
+- Kazanım verileri dinamikleşmeli  
+- Şık sayısına alt/üst sınır eklenmeli  
+- Sınav sonrası kullanıcı geri bildirimi gösterilmeli  
 
-**Geliştirilebilecek Noktalar:**
--Kazanım verileri için dinamik veri tabanı entegrasyonu yapılmalı
--Şıklar bölümüne minimum–maksimum sınırlandırması getirilmeli
--Sınav kaydı sonrası geri bildirim ekranı geliştirilmeli
+### Sprint 3'e Hedefler
 
+- Sınav Analiz Sayfası geliştirilecek  
+- Rol bazlı erişim tamamlanacak  
+- PDF çıktısı ve kullanıcı işlem logları eklenecek  
+- Çoklu soru yükleme sistemi araştırılacak  
 
-
-### İyileştirme Hedefleri (Sprint 3 için)
-
--Sınav Analiz Sayfası geliştirilecek (renkli başarı kutuları, filtreleme, Excel çıktısı)
--Rol bazlı erişim tam olarak devreye alınacak (admin, editör, sınav koordinatörü)
--PDF çıktısı üretimi test edilecek
--Kullanıcı işlem geçmişi loglanacak
--Çoklu soru yükleme özelliği (batch mode) araştırılacak
+---
