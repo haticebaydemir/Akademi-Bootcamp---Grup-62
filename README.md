@@ -159,6 +159,7 @@ Uzun vadede, sınav performansları ile bölüm öğrenim çıktıları arasınd
 ### Daily Scrum
 
 > İletişim yine WhatsApp grubu üzerinden sürdürüldü. UI testleri yapılmaya başlandı.
+![](Sprint1_images/meet3.png)
 
 ### Ürün Durumu
 
