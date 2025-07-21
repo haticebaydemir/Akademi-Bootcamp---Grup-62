@@ -100,6 +100,10 @@ Uzun vadede, sınav performansları ile bölüm öğrenim çıktıları arasınd
 
 ### Planlanan Puan: `100 puan`
 
+### Puanlama Mantığı
+Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.  
+İlk sprintte planlama ve altyapı kurulumları önceliklendirildiği için hedef 100 puan belirlenmiştir.
+
 ### Daily Scrum
 
 > Günlük gelişmeler WhatsApp grubunda yazılı olarak paylaşıldı.
@@ -155,6 +159,13 @@ Uzun vadede, sınav performansları ile bölüm öğrenim çıktıları arasınd
 - Kullanıcı rollerine göre erişim sistemi planlandı  
 
 ### Planlanan Puan: `100 puan`
+Sprint 2'de odak, sistemin temel işlevsel modüllerinin geliştirilmesine verilmiştir.
+Bu sprint için 100 puanlık görev tanımlanmıştır. Puanlama şu modüllerin kapsamına göre dağıtılmıştır:
+
+Editör Görev Atama (popup form, validasyon): 30 puan
+Soru Editörü (tam ekran, tüm bileşenlerle): 40 puan
+Sınav Oluşturma Süreci (3 adımlı yapı, yönlendirme akışı): 30 puan
+
 
 ### Daily Scrum
 
