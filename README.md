@@ -169,15 +169,19 @@ Editör Görev Atama (popup form, validasyon): 30 puan
 Soru Editörü (tam ekran, tüm bileşenlerle): 40 puan
 Sınav Oluşturma Süreci (3 adımlı yapı, yönlendirme akışı): 30 puan
 
-
 ### Daily Scrum
 
 > İletişim yine WhatsApp grubu üzerinden sürdürüldü. UI testleri yapılmaya başlandı.
 ![](Sprint1_images/meet3.png)
 
+
+### Sprint Board  
+<img width="1600" height="802" alt="image" src="https://github.com/user-attachments/assets/d7a67967-41d0-4f85-9aa9-c64cd65d3183" />
+
+
 ### Ürün Durumu
 
-#### 🎯 Editör Görev Atama
+####  Editör Görev Atama
 
 - Bölüm, ders kodu, ders adı, hafta ve zorunlu soru alanları  
 - Form validasyonu ve açıklama desteği  
@@ -186,7 +190,7 @@ Sınav Oluşturma Süreci (3 adımlı yapı, yönlendirme akışı): 30 puan
 
 ![](Sprint1_images/editor_gorev.jpg)
 
-#### ✍️ Soru Editörü
+####  Soru Editörü
 
 - Soru metni, zorluk derecesi, şıklar  
 - Doğru cevap işaretleme  
@@ -196,7 +200,7 @@ Sınav Oluşturma Süreci (3 adımlı yapı, yönlendirme akışı): 30 puan
 
 ![](Sprint1_images/soru_editoru.jpg)
 
-#### 🧭 Sınav Oluşturma Süreci
+####  Sınav Oluşturma Süreci
 
 - 3 adımlı yapı: Sınav Bilgisi > Editör Seçimi > Önizleme  
 - Üst akış çizgisiyle yönlendirici deneyim
