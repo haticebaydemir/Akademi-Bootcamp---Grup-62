@@ -110,6 +110,9 @@ Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.
 ![](Sprint1_images/meet.png)
 ![](Sprint1_images/meet1.png)
 
+### Sprint Board
+<img width="1600" height="1002" alt="image" src="https://github.com/user-attachments/assets/83267a8e-5f81-40df-b9ab-b57a191d9a92" />
+
 
 ### Ürün Durumu
 
