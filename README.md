@@ -280,3 +280,6 @@ Grafiksel analizler ileride etkileşimli hale getirilebilir (Chart.js interaktif
 
 ### Genel Değerlendirme
 Bu proje, akademik sınav süreçlerini sadece teknik olarak değil; pedagojik ve ölçme-değerlendirme perspektifiyle de ele alarak çok yönlü bir çözüm sunmuştur. Gerek yapay zeka analiz modülü gerekse kazanım bazlı değerlendirme altyapısıyla eğitim teknolojileri alanında örnek bir model oluşturmuştur.
+
+
+Projemizin demo videosu: https://www.youtube.com/watch?v=0ME_xQyHSZY
