@@ -237,6 +237,8 @@ Sprint Boyunca:
 Son sprintte yoğun test ve gözden geçirme süreçleri yürütüldü. Geliştirme boyunca ekip içi iletişim WhatsApp üzerinden devam etti.
 
 ### Sprint Board 
+<img width="1280" height="567" alt="image" src="https://github.com/user-attachments/assets/31de7448-0e59-4e4e-a5e9-62ac5bd815f9" />
+
 
 ### Ürün Durumu
 ![]()
