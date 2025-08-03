@@ -283,4 +283,5 @@ Bu proje, akademik sınav süreçlerini sadece teknik olarak değil; pedagojik v
 
 
 Projemizin demo videosu:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0ME_xQyHSZY?si=acyBK67J-yLhjzE1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Üniversite Soru Bankası - Akademik Sınav Yönetim ve Analiz Sistemi](https://img.youtube.com/vi/0ME_xQyHSZY/0.jpg)](https://www.youtube.com/watch?v=0ME_xQyHSZY)
+
