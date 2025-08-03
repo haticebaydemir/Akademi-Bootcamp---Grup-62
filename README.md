@@ -72,7 +72,7 @@ Uzun vadede, sınav performansları ile bölüm öğrenim çıktıları arasınd
 ## Kullanılan Teknolojiler
 
 - **Frontend:** React.js + Tailwind CSS  
-- **Backend:** Firebase (Realtime Database, Auth)  
+- **Backend:** MySQL+ExpressJS (Realtime Database, Auth)  
 - **Görselleştirme:** Chart.js  
 - **Excel Çıktısı:** ExcelJS  
 - **Tasarım:** Mobil uyumlu, sade, kurumsal arayüz  
@@ -95,7 +95,7 @@ Uzun vadede, sınav performansları ile bölüm öğrenim çıktıları arasınd
 
 - Projenin vizyonu ve mimarisi oluşturuldu  
 - Giriş sistemi (Login Sayfası) geliştirildi  
-- Firebase Authentication ile tam entegre  
+- Auth0 Authentication ile tam entegre  
 - Google, Facebook ve e-posta ile giriş desteklendi  
 
 ### Planlanan Puan: `100 puan`
@@ -136,7 +136,7 @@ Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.
 
 **İyi Gidenler**
 - Net görev tanımı ile hızlı ilerleme  
-- Firebase entegrasyonu problemsiz  
+- Veritabanı entegrasyonu problemsiz  
 - UI tasarımı sade ve etkili  
 
 **Geliştirilebilecek Noktalar**
