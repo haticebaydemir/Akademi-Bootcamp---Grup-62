@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
+@layer base {
+  .font-poppins {
+    font-family: 'Poppins', 'Inter', 'sans-serif';
+  }
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-white font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  /* Custom Animations */
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+  
+  .animate-slide-down {
+    animation: slideDown 0.5s ease-out;
+  }
+  
+  .animate-fade-in-delayed {
+    animation: fadeIn 1.2s ease-out 0.3s both;
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-float-delayed {
+    animation: float 6s ease-in-out infinite 2s;
+  }
+  
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  .delay-300 {
+    animation-delay: 0.3s;
+  }
+  
+  .delay-400 {
+    animation-delay: 0.4s;
+  }
+  
+  .delay-500 {
+    animation-delay: 0.5s;
+  }
+  
+  .delay-600 {
+    animation-delay: 0.6s;
+  }
+  
+  .delay-1000 {
+    animation-delay: 1s;
+  }
+  .text-complementary {
+    @apply text-purple-600 dark:text-pink-400;
+  }
+  .bg-complementary {
+    @apply bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800;
+  }
+  @keyframes bubble1 {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(40px, 30px) scale(1.08); }
+  }
+  @keyframes bubble2 {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(-30px, -40px) scale(1.04); }
+  }
+  @keyframes bubble3 {
+    0%, 100% { transform: translate(-50%,-50%) scale(1); }
+    50% { transform: translate(-60%,-55%) scale(1.12); }
+  }
+  .animate-bubble1 {
+    animation: bubble1 18s ease-in-out infinite;
+  }
+  .animate-bubble2 {
+    animation: bubble2 22s ease-in-out infinite;
+  }
+  .animate-bubble3 {
+    animation: bubble3 26s ease-in-out infinite;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-sm border border-white/20;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 text-white font-medium px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-white border border-gray-200 hover:border-gray-300 text-gray-700 font-medium px-6 py-3 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-md;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-300 bg-white/50 backdrop-blur-sm;
+  }
+  
+  .social-btn {
+    @apply flex items-center justify-center gap-3 w-full px-4 py-3 rounded-xl border border-gray-200 bg-white hover:bg-gray-50 transition-all duration-300 transform hover:scale-105 hover:shadow-md;
+  }
+  .input-modern {
+    @apply px-6 py-4 rounded-2xl border-2 border-gray-200 dark:border-gray-700 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-700 shadow-sm dark:bg-gray-900 dark:text-white transition-all duration-300;
+  }
+  .btn-modern {
+    @apply w-full py-4 px-8 rounded-2xl font-bold text-lg bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 dark:from-blue-500 dark:via-purple-600 dark:to-pink-600 shadow-xl hover:from-pink-500 hover:to-blue-600 hover:shadow-2xl transition-all duration-300 focus:ring-4 focus:ring-pink-200 dark:focus:ring-pink-700;
+  }
+  .btn-modern:disabled {
+    @apply opacity-60 cursor-not-allowed;
+  }
+} 
