@@ -263,8 +263,11 @@ Son sprintte yoğun test ve gözden geçirme süreçleri yürütüldü. Gelişti
 - Öğrenci geri bildirim ekranı sade ve motive edici tasarlandı
 - Tüm sistem modülleri birbirine sorunsuz şekilde bağlandı
 - Kullanıcı deneyimi hem masaüstü hem mobilde tatmin edici seviyeye ulaştı
+
 ### Retrospective
+
 **İyi Gidenler**
+
 AI modülü öğretimsel anlamda yüksek katkı sağladı
 Öğrenciye özel geri bildirim sistemi kullanıcılar tarafından beğenildi
 Tüm modüllerin kurumsal uyumu ve sade tasarımı projeye bütünlük kattı
