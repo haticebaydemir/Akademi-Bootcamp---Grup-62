@@ -181,15 +181,6 @@ Sınav Oluşturma Süreci (3 adımlı yapı, yönlendirme akışı): 30 puan
 
 ### Ürün Durumu
 
-####  Editör Görev Atama
-
-- Bölüm, ders kodu, ders adı, hafta ve zorunlu soru alanları  
-- Form validasyonu ve açıklama desteği  
-- Modal (popup) yapı  
-- “Görev Tanımla” ve “Kapat” butonları
-
-![](Sprint1_images/editor_gorev.jpg)
-
 ####  Soru Editörü
 
 - Soru metni, zorluk derecesi, şıklar  
@@ -198,14 +189,14 @@ Sınav Oluşturma Süreci (3 adımlı yapı, yönlendirme akışı): 30 puan
 - Dönem/hafta ayarı, aktif/pasif toggle  
 - “Kaydet” ve “Geri Dön” butonları
 
-![](Sprint1_images/soru_editoru.jpg)
+![](Sprint1_images/2501659159c94f2ba7dceebf0ef7141e.jpg)
 
 ####  Sınav Oluşturma Süreci
 
 - 3 adımlı yapı: Sınav Bilgisi > Editör Seçimi > Önizleme  
 - Üst akış çizgisiyle yönlendirici deneyim
 
-![](Sprint1_images/sinav_bilgileri.jpg)
+![](Sprint1_images/3.jpg)
 
 ### Sprint Review
 
@@ -225,11 +216,64 @@ Sınav Oluşturma Süreci (3 adımlı yapı, yönlendirme akışı): 30 puan
 - Şık sayısına alt/üst sınır eklenmeli  
 - Sınav sonrası kullanıcı geri bildirimi gösterilmeli  
 
-### Sprint 3'e Hedefler
 
-- Sınav Analiz Sayfası geliştirilecek  
-- Rol bazlı erişim tamamlanacak  
-- PDF çıktısı ve kullanıcı işlem logları eklenecek  
-- Çoklu soru yükleme sistemi araştırılacak  
+## Sprint 3
+### Sprint Notları
+Bu sprintte, projenin tüm modülleri birbirine entegre edilmiş, kullanıcı bazlı analizler ve yapay zeka destekli yorumlama sistemi tamamlanmıştır. Sistem, sadece sınav hazırlığı ve havuz yönetimiyle sınırlı kalmayıp; öğrenci performansını değerlendiren, bireysel geri bildirim sağlayan ve öğretim kalitesini iyileştirmeye yönelik çıktılar sunan bir yapıya kavuşmuştur.
 
----
+Sprint Boyunca:
+- AI Destekli Soru Analizi modülü tamamlandı
+- Öğrenciye özel geri bildirim raporu tasarlandı
+- Görselleştirme altyapısı genişletildi
+- Kullanıcı deneyimi optimize edildi
+- Tüm sistem testleri yapıldı ve proje sonlandırıldı
+
+### Planlanan Puan: `100 puan`
+-AI Analiz Paneli ve Metin Çıktıları: 40 puan
+-Öğrenci Geri Bildirim Ekranı & Öneri Sistemi: 30 puan
+-Sistem entegrasyon & testler: 30 puan
+
+### Daily Scrum
+Son sprintte yoğun test ve gözden geçirme süreçleri yürütüldü. Geliştirme boyunca ekip içi iletişim WhatsApp üzerinden devam etti.
+
+### Sprint Board 
+
+### Ürün Durumu
+![]()
+![](Sprint1_images/login.jpg)
+![](Sprint1_images/2501659159c94f2ba7dceebf0ef7141e.jpg)
+![](Sprint1_images/4ae35d9b12db49f887ea0a6203aa2f8f.jpg)
+![](Sprint1_images/59eb335f00a74bfc89e1ba9ff5b607b2.jpg)
+![](Sprint1_images/60602a357dae48f0b09e97471c730b28.jpg)
+![](Sprint1_images/1.jpg)
+![](Sprint1_images/2.jpg)
+![](Sprint1_images/3.jpg)
+![](Sprint1_images/4.jpg)
+![](Sprint1_images/5.jpg)
+![](Sprint1_images/6.jpg)
+
+### AI Destekli Soru Analizi
+- Her soru için başarı yüzdesi temel alınarak yorumlama yapıldı
+- Alternatif şıklara yönelme eğilimleri, pedagojik anlamda analiz edildi
+- Eğitimcilere yönelik tavsiye cümleleri üretildi
+- Düşük başarı oranı olan sorular için "öğretimsel geri dönüş önerileri" üretildi
+
+### Sprint Review
+- Yapay zeka destekli analiz modülü başarılı şekilde çalışmakta
+- Öğrenci geri bildirim ekranı sade ve motive edici tasarlandı
+- Tüm sistem modülleri birbirine sorunsuz şekilde bağlandı
+- Kullanıcı deneyimi hem masaüstü hem mobilde tatmin edici seviyeye ulaştı
+### Retrospective
+**İyi Gidenler**
+AI modülü öğretimsel anlamda yüksek katkı sağladı
+Öğrenciye özel geri bildirim sistemi kullanıcılar tarafından beğenildi
+Tüm modüllerin kurumsal uyumu ve sade tasarımı projeye bütünlük kattı
+
+**Geliştirilebilecek Noktalar**
+
+AI yorumlarının doğruluğu kullanıcı verisi ile zamanla daha iyi optimize edilebilir
+Öğrenci geri bildirimi PDF çıktısı olarak alınabilir hale getirilmeli
+Grafiksel analizler ileride etkileşimli hale getirilebilir (Chart.js interaktif modlar)
+
+### Genel Değerlendirme
+Bu proje, akademik sınav süreçlerini sadece teknik olarak değil; pedagojik ve ölçme-değerlendirme perspektifiyle de ele alarak çok yönlü bir çözüm sunmuştur. Gerek yapay zeka analiz modülü gerekse kazanım bazlı değerlendirme altyapısıyla eğitim teknolojileri alanında örnek bir model oluşturmuştur.
