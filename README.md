@@ -124,7 +124,7 @@ Toplamda yaklaşık 300 puanlık bir backlog hazırlanmıştır.
 ### Sprint Review
 
 - Giriş akışı başarıyla çalışıyor  
-- Firebase entegrasyonu stabil  
+- Backend (MySQL+ExpressJS) stabil çalışıyor  
 - Sosyal girişler (Google/Facebook) test edildi  
 - Masaüstü ve mobil cihazlarda başarıyla test edildi  
 
